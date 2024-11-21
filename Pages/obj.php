@@ -1,5 +1,6 @@
 
-<div class= "p-10">
+<div class= "p-10 flex gap-10">
+    <div>
     <?php
         require('inherit.php');
         use inherits\Fruits;
@@ -17,8 +18,11 @@
         //.........ABstruct_________________
         $audi = new Audi("Audi A4", 50000);
         echo $audi->intros();
-
-        $price = new Price("Car", 30000);
+        $price = new Price("", 30000);
         echo $price->intros(); 
     ?>
+    </div>
+    <div>
+            
+    </div>
 </div>

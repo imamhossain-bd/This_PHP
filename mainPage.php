@@ -17,6 +17,9 @@
     <?php
         require('Pages/obj.php');
     ?>
+    <?php
+        require('Pages/others.php')
+    ?>
 
 
 
